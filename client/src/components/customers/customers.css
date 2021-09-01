@@ -1,0 +1,9 @@
+ul {
+    list-style-type: none;
+    align-items: right;
+    padding: 0;
+}
+li {
+    color: yellow;
+    text-align: left;
+}

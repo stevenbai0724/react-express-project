@@ -1,0 +1,22 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "react and express project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "kill" : "killall node"
+  },
+  "author": "Steven Bai",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
